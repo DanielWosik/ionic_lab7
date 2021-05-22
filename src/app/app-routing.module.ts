@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'ulster',
+    loadChildren: () => import('./ulster/ulster.module').then( m => m.UlsterPageModule)
+  },
 ];
 
 @NgModule({
