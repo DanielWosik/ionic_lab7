@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MunsterPage implements OnInit {
 
+  countiesMunster: string[] = ["Clare", "Cork", "Kerry", "Limerick", "Tipperary", "Waterford"];
+
   constructor() { }
 
   ngOnInit() {
